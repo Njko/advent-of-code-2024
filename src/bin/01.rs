@@ -1,6 +1,10 @@
 advent_of_code::solution!(1);
 
 pub fn part_one(input: &str) -> Option<u32> {
+    for line in input.lines() {
+        // Process each line here
+        println!("{}", line); // Example: print each line
+    }
     None
 }
 
